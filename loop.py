@@ -17,9 +17,9 @@ for depar in department:
 for num in range(10,20):
     if num % 2 == 0:
         print("Display even numbers:", num)
-"""        
+       
 for num in range(20,51):
     multiple = num * 5
     print("Multiple of 5s:", multiple)
-
+"""
     
