@@ -18,6 +18,6 @@ if a > b:
 else:
     print("b is greater than a" ,b)
 '''
-name = input()
-age = input()
+name = input("Enter your name: ")
+age = input("Enter your age: ")
 print("name and age:", name, age)
