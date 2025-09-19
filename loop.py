@@ -21,5 +21,29 @@ for num in range(10,20):
 for num in range(20,51):
     multiple = num * 5
     print("Multiple of 5s:", multiple)
+
+new = 1
+for num in range(1,6):
+    new = new * num
+    print("Factorial of 5 is:", new)
+
+new = int(input("Enter the numbers:" ))
+for num in range(new):
+    if num != 0:
+        new = new * num
+        print("number is non-zero so product of numbers is:", new)
+print("number is zero")
+
+new = int(input("Enter the numbers:" ))
+for num in range(new):
+    print(f"number to add {num} with {new}")
+    if num >= 1:
+        new = new + num
+        print(f"number is non-negative so sum of numbers is:", new)
+    else:
+        print(f"user enter the number is negative {num}")
+#print(f"user enter the number is invalid {new}")
+#print("number is negative")
 """
-    
+
+
