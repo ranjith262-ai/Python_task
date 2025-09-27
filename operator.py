@@ -20,7 +20,7 @@ char3 = char1
 print(char1 is not char2)
 """
 
-char1 = str(input())
-char2 = str(input())
-print(char2 in char1)
-#print(char2 not in char1)
+char1 = input("Enter the string1:")
+char2 = input("Enter the string2:")
+#print(char2 in char1)
+print(char2 not in char1)
