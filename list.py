@@ -33,6 +33,9 @@ print("List after removing duplicates:", lst7)
 #exercise:5
 lst8 = [10, 20, 30, 40, 50]
 lst9 = []
+for i in range(len(lst8) - 1, -1, -1):
+    lst9.append(lst8[i])
+print("Reversed list:", lst9)
 
 
         
