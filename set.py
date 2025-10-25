@@ -21,3 +21,8 @@ print(set5)
 print(set6)
 
 #Exercise:3
+
+set7 = {"apple", "banana", "cherry"}
+set8 = {"orange", "kiwi", "melon", "banana", "apple", "cherry"}
+set9 = set7.issubset(set8)
+print(set9)
