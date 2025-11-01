@@ -43,3 +43,58 @@ def factorial(n):
         return n * factorial(n - 1)
 print("The factorial is:", factorial(5))
 print("The factorial is:", factorial(7))
+
+#Exercise:5
+def prime_check(chk,num):
+    if num <= 1:
+        return "Not Prime"
+    elif num % chk == 0:
+        return "Not Prime"
+    return "Prime"
+print("The number is:", prime_check(2,346))
+
+#Exercise:6
+def reverse_string(char1):
+    rev = ""
+    for i in range(len(char1)-1, -1, -1):
+        rev = rev + char1[i]
+    return rev
+print("The reversed string is:", reverse_string("Hello world"))
+
+#Exercise:7
+def count_char(string):
+    count = 0
+    for char in string:
+        count += 1
+    return count
+print("The number of characters is:", count_char("Hello"))
+
+#Exercise:8
+def sum_square(n):
+    total = 0
+    for i in range(1, n + 1):
+        total += i * i
+    return total
+print("The sum of squares is:", sum_square(5))
+
+#Exercise:9
+def polindrome_check(string):
+    rev = ""
+    for i in range(len(string)-1, -1, -1):
+        rev = rev + string[i]
+    if string == rev:
+        return "Palindrome"
+    else:
+        return "Not Palindrome"
+print("The string is:", polindrome_check("madam"))
+print("The string is:", polindrome_check("hello"))
+
+#Exercise:10
+def fibonacci(n):
+    fib_sequence = []
+    a, b = 0, 1
+    for i in range(n):
+        fib_sequence.append(a)
+        a, b = b, a + b
+    return fib_sequence
+print("Fibonacci sequence up to 10 terms:", fibonacci(10))
